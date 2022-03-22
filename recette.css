@@ -1,0 +1,137 @@
+
+* {
+    overflow: auto;
+}
+
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.contenu{
+    min-width: 350px;
+    background-color: white;
+    margin: 60px 10% 100px 10%;
+    padding: 0px 30px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+p.description{
+    font-size: 14px;
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.centre{
+    text-align: center;
+    width: 100%;
+}
+div.categorie{
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: visible;
+}
+div.separateur{
+    background-color: black;
+    width: 100px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.info{
+    position: relative;
+}
+table.info{
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    color: white;
+    background-color: #6c829dC1; height:80px;
+}
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 6px;
+}
+img.info{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+div.colonne{
+    width: 45%;
+    margin-top: 20px;
+}
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: #6c829d 5px solid;
+    padding-bottom: 5px;
+}
+div.colonne1{
+    /*background-color: lightblue;*/
+    display: inline-block;
+    margin-right: 10%;
+}
+div.colonne2{
+    float: right;
+}
+div.ingredient{
+    text-align: center;
+}
+div.ingredient p {
+    border: 1px lightgray solid;
+    font-size :14px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+table.preparation p.numero{
+    background-color: #6c829d;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+table.preparation td{
+    vertical-align: top;
+}
+table.preparation td.preparation_text{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+table.preparation tr{
+    height: 40px;
+}
